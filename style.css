@@ -4,19 +4,64 @@
   align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 15%;
+  width: 25%;
+  padding: 40px 0px 0px 0px;
 }
 /* Header Css Ends */
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;}
+div.gallery:hover {
+  border: 1px solid #777;}
+div.gallery img {
+  width: 180px;
+  height: 160px;}
+div.description {
+  padding: 15px;
+  text-align: center;}
+div.title {
+  padding: 15px;
+  text-align: center;}
+
+.blogpic{
+  width: 150px;
+}
+.blogpic2{
+  width:140px;
+  display: center;
+}
+.survey{
+  color:black;
+  background: hotpink;
+}
+.servicepictures{
+  width:140px;
+  height: 140px;
+  margin: auto;
+  display: center;
+}
+.homepagepic{
+  height:350px;
+}
+.thumbnail{
+  height:100px;
+}
+
+
+
 /* Dropdown Css Starts*/
 .navDefault{
   position: fixed;
   top:0;
   left:0;
   right:0;
-  background-color:transparent;}
+  background-color:black;}
 button{
   border: none;
-  background-color: hotpink;
+  background-color: #FF00C7;
   width: 150px;
   height: 50px;
   color: white;
@@ -50,7 +95,7 @@ button{
   width: 150px;
   position: relative;}
 .dropdown:hover button{
-  background-color: pink;}
+  background-color: #F9B3F2;}
 .dropdown:hover .dropdownMenu {
   transform: translateY(0);}
 /* Dropdown Css Ends*/
@@ -59,10 +104,10 @@ header{
   text-align:center;
   background:white;
   background-size: cover;
-  color: hotpink}
+  color: #FF00C7}
 .unordered {
   padding: 10px;
-  background:hotpink}
+  background:#FF00C7}
 .stuffs{
   display: inline;
   padding:0px 20px 0px 20px;}
@@ -70,3 +115,96 @@ a{
   color: white;
   font-size: 17px;}
 /*Header Ends*/
+
+
+#splashimageblog{
+  background-image: url(https://i.postimg.cc/zDx9X8DZ/Screen-Shot-2020-08-20-at-1-36-15-AM.png);
+  padding: 10px 10px 10px 10px;
+  height:235px;
+  margin:auto;
+  zoom: 150%;
+  }
+#splashimage{
+  background:#F9B3F2;
+  padding: 10px 10px 10px 10px;}
+#firstset{
+  background: #BD8B66;
+  padding: 10px 10px 10px 10px;}
+#secondset{
+  background: #E5CBB8;
+  padding: 10px 10px 10px 10px;}
+.votes{
+  background:linear-gradient(to bottom right, #D3D3D3,#3d3c3d);
+  color:#F9B3F2;
+  border-radius: 10px;}
+#footer{
+  background: #1F1F1F; 
+  height: 220px;
+}
+#footerfoot{
+  background: black;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+}
+.footerstuff{
+  padding: 10px;
+  list-style:none; 
+  text-decoration: none; }
+.socialmedia{
+  width: 47px;
+  height: 47px;
+  padding: 8px 10px 0px 0px;
+  display:inline;
+  text-aline:right;
+}
+.footerlogo{
+   height:200px; 
+   width:500px;
+   padding: 20px;
+}
+
+.standardsize{
+  width:50px;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  padding: 30px;
+  min-width: 250px;
+}
+
+.hero {
+  height: 480px;
+  margin-bottom: 20px;
+}
+
+.hero img {
+  height: 100%
+}
+
+
+.thumbnail {
+  display: inline-block;
+  cursor: pointer;
+  height: 100px;
+}
+
+a.thumbnail:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
+.thumbnail img {
+  max-height: 100%;
+}
+
+
+
+.bigbox{
+  height: 300px;
+  width: 400px;
+}

@@ -3,46 +3,31 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
     <title>repl.it</title>
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap-grid.css" rel="stylesheet" type="text/css" />
   </head>
-  <style>
-    div.gallery {
-      margin: 5px;
-      border: 1px solid #ccc;
-      float: left;
-      width: 180px;}
-    div.gallery:hover {
-      border: 1px solid #777;}
-    div.gallery img {
-      width: 100%;
-      height: auto;}
-    div.description {
-      padding: 15px;
-      text-align: center;}
-    div.title {
-      padding: 15px;
-      text-align: center;}
-  </style>
-
-  <body>
+<body>
     <header>
-      <img class="logo" src="https://i.postimg.cc/zDK4dg5g/image.png">
-    </header>
-    <header>
+      <img class="logo" src="https://i.postimg.cc/P5PTLCwm/Screen-Shot-2020-08-17-at-1-32-01-AM.png">
       <ul class="unordered">
         <li class="stuffs"><a href="index.html">Home</a></li>
         <li class="stuffs"><a href="about.html">About Nicole</a></li>
         <li class="stuffs"><a href="artwork.html">Artwork and Photography</a></li>
-        <li class="stuffs"><a href="diy.html">DIY Ideas</a></li>
         <li class="stuffs"><a href="services.html">Services</a></li>
         <li class="stuffs"><a href="blog.html">Personal Blog</a></li>
       </ul>
     </header>
     <div container>
       <div row>
-        <p style="color:black; background:hotpink"><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><></p>
+        <p style="color:white; background:#FF00C7"><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><></p>
       </div>
     </div>
     <!-- dropdown button details -->
@@ -53,45 +38,156 @@
           <li class="dropdownItem"><a href="index.html" class="dropdownLink">Home</a></li>
           <li class="dropdownItem"><a href="about.html" class="dropdownLink">About Nicole</a></li>
           <li class="dropdownItem"><a href="artwork.html" class="dropdownLink">Artwork and Photography</a></li>
-          <li class="dropdownItem"><a href="diy.html" class="dropdownLink">DIY Ideas</a></li>
           <li class="dropdownItem"><a href="services.html" class="dropdownLink">Services</a></li>
           <li class="dropdownItem"><a href="blog.html" class="dropdownLink">Nicole's Personal Blog</a></li>
         </ul>
       </div>
     </nav>
-    <h1>Artwork and Photography</h1>
     <div class="container-fluid">
-      <div class="row">
-        <div class="gallery">
-          <div class="title">Add title here</div>
-          <a target="_blank" href="link">
-            <img src="link">
-          </a>
-          <div class="description">Add description here</div>
+      <div class="row" id="splashimage" style="background: url(https://i.postimg.cc/g21rYN38/Screen-Shot-2020-08-20-at-9-17-58-AM.png); height: 245px; zoom:150%">
+      </div>
+      <div class="row" id="firstset" style="height:20px">
+          <h1> </h1>
         </div>
-        <div class="gallery">
-          <div class="title">Add title here</div>
-          <a target="_blank" href="link">
-            <img src="link">
-          </a>
-          <div class="description">Add description here</div>
-        </div>
-        <div class="gallery">
-          <div class="title">Add title here</div>
-          <a target="_blank" href="link">
-            <img src="link">
-          </a>
-          <div class="description">Add description here</div>
-        </div>
-        <div class="gallery">
-          <div class="title">Add title here</div>
-          <a target="_blank" href="link">
-            <img src="link">
-          </a>
-          <div class="description">Add description here</div>
+      <div class="row" id="secondset">
+        <h1>Image Carousel</h1>
+      </div>
+      <div class="row" id="secondset">
+        <div class="hero">
+          <img src="https://i.postimg.cc/k4mWjjH7/IMG-7833.jpg" alt="" />
         </div>
       </div>
-    </div>
-    <script src="script.js"></script>
+      <div class="row" id="secondset">
+        <div class="thumbnails">
+          <a class="thumbnail"><img class="thumbnail" src="https://i.postimg.cc/k4mWjjH7/IMG-7833.jpg" alt="" /></a>
+          <a class="thumbnail"><img class="thumbnail" src="https://i.postimg.cc/Qx19zgpt/IMG-7835.jpg" alt="" /></a>
+          <a class="thumbnail"><img class="thumbnail" src="https://i.postimg.cc/B6nnQHLx/IMG-7837.jpg" alt="" /></a>
+          <a class="thumbnail"><img class="thumbnail" src="https://i.postimg.cc/HL4FvNL2/IMG-7846.jpg" alt="" /></a>
+          <a class="thumbnail"><img class="thumbnail" src="https://i.postimg.cc/W3YWQccM/IMG-7836.jpg" alt="" /></a>
+          <a class="thumbnail"><img class="thumbnail" src="https://i.postimg.cc/x8kxQp9B/IMG-7832.jpg" alt="" /></a>
+          <a class="thumbnail"><img class="thumbnail" src="https://i.postimg.cc/Jh2YFWLj/IMG-6796.jpg" alt="" /></a>
+          <a class="thumbnail"><img class="thumbnail" src="https://i.postimg.cc/1zfJwYqX/IMG-0698.jpg" alt="" /></a>
+          <a class="thumbnail"><img class="thumbnail" src="https://i.postimg.cc/1tD0Kx5m/IMG-0758.jpg" alt="" /></a>
+          <a class="thumbnail"><img class="thumbnail" src="https://i.postimg.cc/ncrjFbbX/IMG-0762.jpg" alt="" /></a>
+          <a class="thumbnail"><img class="thumbnail" src="https://i.postimg.cc/qRYf23qV/IMG-1527.jpg" alt="" /></a>
+          <a class="thumbnail"><img class="thumbnail" src="https://i.postimg.cc/wTzz2DFg/IMG-5933.jpg" alt="" /></a>
+          <a class="thumbnail"><img class="thumbnail" src="https://i.postimg.cc/DZsVdzXS/IMG-6406.jpg" alt="" /></a>
+          <a class="thumbnail"><img class="thumbnail" src="https://i.postimg.cc/dtJMrwt0/IMG-6795.jpg" alt="" /></a>
+          <a class="thumbnail"><img class="thumbnail" src="https://i.postimg.cc/rsFJynMq/IMG-6173.jpg" alt="" /></a>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+      </div><br>
+
+      <div class="row" id="secondset">
+        <div class="gallery">
+          <div class="title">Roar</div>
+          <a target="_blank" href="https://i.postimg.cc/Vs93nsp8/IMG-7200.jpg">
+            <img src="https://i.postimg.cc/Vs93nsp8/IMG-7200.jpg">
+          </a>
+          <div class="description">Paint by the Color of a Lion</div>
+        </div>
+        <div class="gallery">
+          <div class="title">Objects</div>
+            <a target="_blank" href="https://i.postimg.cc/XJJzvYVZ/IMG-7830.jpg">
+             <img class="artworkset" src="https://i.postimg.cc/XJJzvYVZ/IMG-7830.jpg">
+            </a>
+          <div class="description">Still life of statue and random objects</div>
+        </div>
+        <div class="gallery">
+          <div class="title">Pomegranate Girl</div>
+            <a target="_blank" href="https://i.postimg.cc/fRBMJkcZ/IMG-4872.jpg">
+              <img src="https://i.postimg.cc/fRBMJkcZ/IMG-4872.jpg">
+            </a>
+          <div class="description">Persephone and Hades Adaptation </div>
+        </div>
+        <div class="gallery">
+          <div class="title">Self Portrait</div>
+            <a target="_blank" href="https://i.postimg.cc/Hk0bjr96/6-D3-C6814-485-F-466-F-9-C9-C-41168928-DB83.jpg">
+              <img src="https://i.postimg.cc/Hk0bjr96/6-D3-C6814-485-F-466-F-9-C9-C-41168928-DB83.jpg">
+            </a>
+          <div class="description">Chuck Close Drawing Format</div>
+        </div>
+        <div class="gallery">
+          <div class="title">Title</div>
+            <a target="_blank" href="link">
+              <img src="link">
+            </a>
+          <div class="description">Description</div>
+        </div>
+        <div class="gallery">
+          <div class="title">Title</div>
+            <a target="_blank" href="link">
+              <img src="link">
+            </a>
+          <div class="description">Description</div>
+        </div>
+        <div class="gallery">
+          <div class="title">Title</div>
+            <a target="_blank" href="link">
+              <img src="link">
+            </a>
+          <div class="description">Description</div>
+        </div>
+        <div class="gallery">
+          <div class="title">Title</div>
+            <a target="_blank" href="link">
+              <img src="link">
+            </a>
+          <div class="description">Description</div>
+        </div>
+        <div class="gallery">
+          <div class="title">Title</div>
+            <a target="_blank" href="link">
+              <img src="link">
+            </a>
+          <div class="description">Description</div>
+        </div>
+        </div>
+        <div class="row" id="footer">
+        <div class="col">
+          <ul class="footerstuff">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Nicole</a></li>
+            <li><a href="artwork.html">Artwork and Photography</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Personal Blog</a></li>
+          <ul>
+        </div>
+        <div class="col">
+          <img class="footerlogo" src="https://i.postimg.cc/P5PTLCwm/Screen-Shot-2020-08-17-at-1-32-01-AM.png">
+        </div>
+        <div class="col" style: "display:inline-block">
+          <img class="socialmedia" src="https://www.pinclipart.com/picdir/big/83-831769_tonka-turkey-trot-on-instagram-ig-circle-logo.png"><a href="https://www.instagram.com/nicole123722/?hl=en">@nicole123722</a><br>
+          <img class="socialmedia" src="https://www.uusc.org/wp-content/uploads/2018/09/Facebook-logo-circle.png"><a href="https://www.facebook.com/nicolefri123">Ann Nicole Frimpong</a><br>
+          <img class="socialmedia" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png"><a href="https://twitter.com/frimpong_nicole">@nicole123722</a><br>
+          <img class="socialmedia" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png"><a href="https://www.linkedin.com/public-profile/in/ann-nicole-frimpong-4366241b3?challengeId=AQHoNj-cifKEYgAAAXQKuEKRPAa388_LtA5rGqpK4xfbv_t386FN2qVZ0G8mFVoVtx0NQW64Z4PigpRwEDzFnBGtNSQEABo3ZA&submissionId=2cfb240f-92e8-2c16-6e83-fba780c96173">Ann-Nicole Frimpong</a><br>
+        </div>
+        </div>
+        <div class="row" id="footerfoot">
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.1.0.js">
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);}
+        function currentSlide(n) {
+          showSlides(slideIndex = n);}
+        function showSlides(n) {
+          var i;
+          var slides
+        document.getElementsByClassName("mySlides");
+          var dots =
+        document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  }
+          for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");}
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";}
+      </script>
   </body>
 </html>
